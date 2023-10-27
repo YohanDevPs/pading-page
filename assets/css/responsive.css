@@ -4,7 +4,7 @@
         padding-left: 39px;
         padding-right: 39px;
         padding-top: 32px;
-      }
+    }
 
     .header-information h1 { 
         font-size: 60px;
@@ -18,5 +18,39 @@
 
     .header-container {       
         height: 620px;
+    }
+
+    .service-container {
+        flex-direction: column;
+        margin-right: 96px;
+        margin-left: -96px;
+    }
+
+    .about-card {
+        display: flex;
+        align-items: center;       
+        margin-left: 97px; 
+        margin-bottom: 35px;
+    }
+
+    .number-circle {
+        width: 48px;
+        height: 48px;
+        font-size: 20px;
+    }
+    .informations-container {
+        margin-left: 10px;
+    }
+
+    .title-service{
+        text-align: left;
+        margin-bottom: 16px;
+    }
+    
+    .description-service {
+        text-align: left;
+        width: 492px;
+        font-size: 16px;
+        line-height: 28px;
     }
 }
