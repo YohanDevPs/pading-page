@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+  
+    .header-menu {
+        padding-left: 39px;
+        padding-right: 39px;
+        padding-top: 32px;
+      }
+
+    .header-information h1 { 
+        font-size: 60px;
+        width: 563px;
+        margin: auto;
+    }
+    .header-information img {
+        width: 479.153px;
+        height: 286.603px;
+    }
+
+    .header-container {       
+        height: 620px;
+    }
+}
