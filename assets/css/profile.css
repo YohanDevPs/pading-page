@@ -1,0 +1,82 @@
+.profile-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    width: 1112px;
+    height: 647.743px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .perfil-image {
+    position: absolute; 
+    left: 0; 
+  }
+
+  .perfil-image img {
+    z-index: -1;
+    width: 477px;
+    height: 477px; 
+  }
+  
+  .personal-description-container {
+    z-index: 1;
+    background: #24053E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    height: 300px; 
+    margin-left: 400px;
+    margin-top: 230px;
+    width: 690px;
+    height: 313px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .personal-description-container h2 {
+    color: var(--White, #FFF);
+    font-family: 'Fraunces';
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;    
+  }
+
+  .personal-description-container p {
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 602px;
+  }
+
+  
+  .personal-description-container button {
+    color: var(--Dark-Purple, #24053E);
+    text-align: center;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+    letter-spacing: -0.18px;
+    background: var(--Eucaplyptus, #44FFA1);
+    width: 190px;
+    height: 61px;
+  }
+
+  .personal-description-container button:hover {
+    color: var(--Eucaplyptus, #44FFA1);
+    border: 2px solid  #44FFA1;
+    background-color: #24053E;
+    transition: .2s;
+  }
