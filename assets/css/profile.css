@@ -3,8 +3,8 @@
   align-items: center;
   position: relative;
   flex: 1;
-  width: 1112px;
-  height: 647.743px;
+  max-width: 1112px;
+  max-height: 647.743px;
   display: flex;
   justify-content: space-between;
   margin: auto;

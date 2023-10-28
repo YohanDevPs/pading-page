@@ -8,9 +8,10 @@
 
     .header-information h1 { 
         font-size: 60px;
-        width: 563px;
+        max-width: 563px;
         margin: auto;
     }
+    
     .header-information img {
         width: 479.153px;
         height: 286.603px;
