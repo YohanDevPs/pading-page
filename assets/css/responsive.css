@@ -23,8 +23,6 @@
 
     .service-container {
         flex-direction: column;
-        margin-right: 96px;
-        margin-left: -96px;
     }
 
     .about-card {
@@ -34,13 +32,14 @@
         margin-bottom: 35px;
     }
 
+    .informations-container {
+        margin-left: 10px;
+    }
+
     .number-circle {
         width: 48px;
         height: 48px;
         font-size: 20px;
-    }
-    .informations-container {
-        margin-left: 10px;
     }
 
     .title-service{
@@ -53,10 +52,6 @@
         width: 492px;
         font-size: 16px;
         line-height: 28px;
-    }
-
-    .service-background {
-        height: 1017px;
     }
 
     .perfil-image img {
