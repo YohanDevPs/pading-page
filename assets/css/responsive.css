@@ -53,4 +53,40 @@
         font-size: 16px;
         line-height: 28px;
     }
+
+    .service-background {
+        height: 1017px;
+    }
+
+    .perfil-image img {
+        width: 281px;
+        height: 281px; 
+        position: relative;
+        top: -110px;
+        left: 39px;
+    }
+
+    .personal-description-container {
+        position: relative;
+        right: 193px;
+        max-width: 514px;
+        max-height: 375px;
+        padding-left: 56px;
+        padding-bottom: 71px;
+    }
+
+    .personal-description-container h2 {
+        font-size: 48px;
+        line-height: 56px; 
+    }
+
+    .personal-description-container p {
+        width: 404px;
+        font-size: 16px;  
+        line-height: 32px;
+    }
+    .personal-description-container button{
+        font-size: 16px;
+        letter-spacing: -0.16px;
+    }
 }
