@@ -142,15 +142,13 @@
     }
 
     .personal-description-container {
-        width: auto;
-        height: auto;
         width: 343px;
         height: 375px;
         padding-left: 0;
         padding: 0px 0px 0px 0px;
-        margin: auto;       
-        margin-left: 5%;
-        margin-right: 5%;
+        margin: auto;
+        width: 90%;
+        height: 90%;
     }
         
     
@@ -168,6 +166,7 @@
         margin-top: 16px;
         margin-left: 31px; 
         margin-right: 31px;
+        margin-bottom: 24px;
         width: auto;
         height: auto;
     }
