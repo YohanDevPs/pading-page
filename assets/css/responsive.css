@@ -110,7 +110,8 @@
         height: 178.159px;
     }
 
-    .informations-container {
+    .service-container { 
+        padding-bottom: 77px;
     }
     
     .about-card {
@@ -118,6 +119,7 @@
         margin-left: 16px;
         margin-right: 16px;
     }
+
     .title-service {
         text-align: center;
     } 
@@ -125,9 +127,53 @@
     .description-service {
         width: auto;
         text-align: center;
-        font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
     }     
+
+    .perfil-image {
+        width: 100%;
+    }
+
+    .perfil-image img { 
+        height: 80%;
+        width: 80%;
+        margin-top: -358px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .personal-description-container {
+        width: auto;
+        height: auto;
+        width: 343px;
+        height: 375px;
+        padding-left: 0;
+        padding: 0px 0px 0px 0px;
+        margin: auto;       
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+        
+    
+    .personal-description-container h2 {
+        margin-top: 32px;
+        text-align: center;
+        font-size: 32px;
+        line-height: 48px;  
+    }
+          
+    .personal-description-container p {
+        text-align: center;
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 16px;
+        margin-left: 31px; 
+        margin-right: 31px;
+        width: auto;
+        height: auto;
+    }
+
+    .personal-description-container button {
+        margin: auto;
+        margin-bottom: 32px;
+    }
 }
